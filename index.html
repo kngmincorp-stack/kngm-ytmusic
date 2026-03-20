@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Music Player - Lightweight Desktop Music Player</title>
+  <meta name="description" content="A lightweight, ad-free desktop music player for your YouTube Music library. Built by 合同会社KnGM.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9835;</span>
+        YouTube Music Player
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="premium.html">Features</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h1>Your Music.<br><span class="accent">Your Way.</span></h1>
+        <p class="tagline">A lightweight desktop player for your YouTube Music library. No ads, no browser lag &mdash; just the music you love.</p>
+        <div class="hero-buttons">
+          <a href="download.html" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Free
+          </a>
+          <a href="premium.html" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <h2>Why YouTube Music Player?</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <div class="feature-icon">&#9889;</div>
+            <h3>Lightweight</h3>
+            <p>No browser overhead. Starts in seconds, uses minimal memory. Plays audio only &mdash; no video rendering.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#128683;</div>
+            <h3>Ad-Free Playback</h3>
+            <p>Listen to your entire YouTube library without interruptions. No ads, ever.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#127925;</div>
+            <h3>YouTube Music Search</h3>
+            <p>Search the entire YouTube Music catalog. Find songs by artist, title, or album &mdash; music only, no video results.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#128203;</div>
+            <h3>Smart Queue</h3>
+            <p>Build custom playlists on the fly. Add from Liked Videos or search results. Your queue is saved between sessions.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#127911;</div>
+            <h3>Listen Together</h3>
+            <p>Share a session with friends. Host or join &mdash; everyone hears the same music in real-time sync.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">&#127760;</div>
+            <h3>8 Languages</h3>
+            <p>English, Japanese, Korean, Chinese, Spanish, French, German, and Portuguese. Auto-detects your system language.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="how-it-works">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Download &amp; Launch</h3>
+            <p>Run the single EXE file. No installation required.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Sign In</h3>
+            <p>Connect your YouTube account with one click. Your liked videos appear instantly.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Enjoy</h3>
+            <p>Play, search, queue, shuffle, repeat. All from a Spotify-like dark interface.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <h2>Ready to Listen?</h2>
+        <p>Free forever. No account creation needed &mdash; just your existing YouTube login.</p>
+        <a href="download.html" class="btn btn-primary btn-large">Download for Windows</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (Spotify-style) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="support.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="premium.html">Features</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="support.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="legal/terms.html">Terms of Use</a></li>
+            <li><a href="legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="legal/guidelines.html">User Guidelines</a></li>
+            <li><a href="legal/license.html">License Info</a></li>
+            <li><a href="legal/transactions.html">Commercial Transactions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 合同会社KnGM. All rights reserved.</p>
+        <p class="footer-disclaimer">YouTube and YouTube Music are trademarks of Google LLC. This application is not affiliated with, endorsed by, or sponsored by Google.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

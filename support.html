@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support - YouTube Music Player</title>
+  <meta name="description" content="Get help with YouTube Music Player. Troubleshooting, FAQs, and contact information.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">&#9835;</span>
+        YouTube Music Player
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="premium.html">Features</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="support.html" class="active">Support</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero hero-compact">
+      <div class="container">
+        <h1>How can we <span class="accent">help?</span></h1>
+        <p class="tagline">Find answers to common issues below, or reach out to our support team directly.</p>
+      </div>
+    </section>
+
+    <!-- Troubleshooting FAQ -->
+    <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Troubleshooting</h2>
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <h3 class="faq-question">I can&rsquo;t sign in to my YouTube account</h3>
+            <div class="faq-answer">
+              <p>If the sign-in window doesn&rsquo;t appear or gets stuck, try these steps:</p>
+              <ol>
+                <li>Close all Google Chrome windows completely.</li>
+                <li>Relaunch YouTube Music Player and try signing in again.</li>
+                <li>Make sure Google Chrome is installed and set as a default or accessible browser.</li>
+                <li>If you&rsquo;re using a company/school network, your IT policy may block the authentication flow. Try on a personal network.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-question">No sound is playing</h3>
+            <div class="faq-answer">
+              <p>Audio playback relies on ffplay (bundled with the app). If you hear no sound:</p>
+              <ol>
+                <li>Check that your system volume is not muted.</li>
+                <li>Make sure the correct audio output device is selected in your Windows sound settings.</li>
+                <li>Verify that ffplay/ffmpeg is included in the app directory. If the file is missing, re-download the application.</li>
+                <li>Try playing a different track to rule out a specific file issue.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-question">Songs aren&rsquo;t loading or take too long</h3>
+            <div class="faq-answer">
+              <p>Playback requires an active internet connection. If songs won&rsquo;t load:</p>
+              <ol>
+                <li>Check your internet connection &mdash; try opening a webpage in your browser.</li>
+                <li>If your connection is fine, try signing out and signing back in to refresh your authentication tokens.</li>
+                <li>Some regions may experience slower CDN speeds. If a specific track fails, try another and come back to it later.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-question">Listen Together isn&rsquo;t connecting</h3>
+            <div class="faq-answer">
+              <p>The Listen Together feature requires all participants to be on the same local network:</p>
+              <ol>
+                <li>Ensure both the host and listeners are connected to the same Wi-Fi or LAN network.</li>
+                <li>Check that your firewall is not blocking the application. You may need to allow it through Windows Firewall.</li>
+                <li>VPNs can interfere with local network discovery. Try disabling your VPN temporarily.</li>
+                <li>The host must start the session before others can join.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3 class="faq-question">The app crashes or won&rsquo;t start</h3>
+            <div class="faq-answer">
+              <p>If the application won&rsquo;t launch:</p>
+              <ol>
+                <li>Make sure you&rsquo;re running Windows 10 or later.</li>
+                <li>Try running the EXE as administrator (right-click &rarr; &ldquo;Run as administrator&rdquo;).</li>
+                <li>Your antivirus may have quarantined the file. Check your antivirus logs and add an exception if needed.</li>
+                <li>Re-download the application to ensure the file isn&rsquo;t corrupted.</li>
+              </ol>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-card">
+          <h2>Still Need Help?</h2>
+          <p>If you couldn&rsquo;t find a solution above, reach out to our support team. We typically respond within 1&ndash;2 business days.</p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">&#9993;</div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:support@kngm.co.jp">support@kngm.co.jp</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">&#127970;</div>
+              <div>
+                <h4>Provider</h4>
+                <p>合同会社KnGM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (Spotify-style) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="support.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="premium.html">Features</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="support.html">Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="legal/terms.html">Terms of Use</a></li>
+            <li><a href="legal/privacy.html">Privacy Policy</a></li>
+            <li><a href="legal/guidelines.html">User Guidelines</a></li>
+            <li><a href="legal/license.html">License Info</a></li>
+            <li><a href="legal/transactions.html">Commercial Transactions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 合同会社KnGM. All rights reserved.</p>
+        <p class="footer-disclaimer">YouTube and YouTube Music are trademarks of Google LLC. This application is not affiliated with, endorsed by, or sponsored by Google.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
